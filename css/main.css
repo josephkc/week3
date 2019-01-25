@@ -9,12 +9,12 @@ h1 {
     font-size: 54px; 
     font-weight: 300; 
     line-height: 58px; 
-    margin: 25px auto 50px; 
+    margin: 2%;
 }
 
 footer {
 	font-size: 14px;
-	color: gray;
+	color: #515151;
 	width: auto;
 	padding: 20px;
 	text-align: center;
@@ -22,10 +22,10 @@ footer {
 
 .topnav {
     list-style-type: none;
-    margin: 0;
+    margin: 1%;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(109, 123, 255);
+    background-color: rgb(36, 36, 36);
     /* border: 1px solid #e7e7e7; */
 }
   
@@ -35,17 +35,14 @@ li {
   
 li a {
     display: block;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
   
-li a:hover:not(.active) {
-    background-color: whitesmoke;
-}
-  
-.active {
+li a:hover:not(.active), a:focus:not(.active), .active {
+	color: rgb(36, 36, 36);
     background-color: whitesmoke;
 }
 
@@ -55,15 +52,38 @@ p {
     font-size: 16px; 
     line-height: 26px; 
     text-indent: 30px; 
-    margin: 0;
+    margin: 1%;
 }
 
 h2 {
-	margin: 20px;
-	text-indent: 2%;
+	font-size: 20px;
+	text-indent: 1%;
+	position: relative;
+	top: 2%;
 }
 
 .poster {
 	float: left;
-	display: block;
 }
+
+.sec{
+	margin: 2%;
+	height: 200px;
+	width: 100%;
+}
+
+.skip{
+	position: relative;
+	left: -2000px;
+}
+
+.skip:focus{
+	position: static;
+}
+
+hover  mouses 
+focus  keyboard 
+active  is being clicked
+
+hover 	comes after link 
+visited active     comes after hover
