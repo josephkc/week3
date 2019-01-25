@@ -25,7 +25,7 @@ footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(109, 123, 255);
     /* border: 1px solid #e7e7e7; */
 }
   
@@ -42,11 +42,11 @@ li a {
 }
   
 li a:hover:not(.active) {
-    background-color: gray;
+    background-color: whitesmoke;
 }
   
 .active {
-    background-color: rgb(114, 104, 255);
+    background-color: whitesmoke;
 }
 
 p {
