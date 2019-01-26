@@ -9,15 +9,21 @@ h1 {
     font-size: 54px; 
     font-weight: 300; 
     line-height: 58px; 
-    margin: 2%;
+    margin: 5%;
 }
 
 footer {
 	font-size: 14px;
 	color: #515151;
-	width: auto;
+	width: 100%;
+	bottom: 0px;
 	padding: 20px;
 	text-align: center;
+}
+
+img {
+	margin: 1% 10%;
+	padding: 5%;
 }
 
 .topnav {
@@ -50,26 +56,30 @@ p {
     color: black; 
     font-family: 'Roboto', sans-serif;
     font-size: 16px; 
-    line-height: 26px; 
-    text-indent: 30px; 
+    line-height: 26px;
     margin: 1%;
 }
 
 h2 {
 	font-size: 20px;
-	text-indent: 1%;
 	position: relative;
+	margin: 2%;
 	top: 2%;
+	left: 1%;
+	width: 100%;
 }
 
 .poster {
 	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 .sec{
+	display: flex;
 	margin: 2%;
 	height: 200px;
-	width: 100%;
+	width: 90%;
 }
 
 .skip{
@@ -79,4 +89,36 @@ h2 {
 
 .skip:focus{
 	position: static;
+}
+
+.project_description {
+	display: block;
+    color: black;
+	line-height: 1.2;
+	width: 60%;
+}
+
+/* .projectimg {
+	float: left;
+} */
+
+.projectsec {
+	display: flex;
+	margin: 5%;
+	height: 200px;
+	width: 100%;
+}
+
+.shortsec {
+	display: flex;
+	margin: 0% 0% 0% 3%;
+}
+
+.contactdesc {
+	width: 50%
+}
+
+.moviedesc {
+	margin: 1%;
+	width: 25%;
 }
