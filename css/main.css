@@ -98,10 +98,6 @@ h2 {
 	width: 60%;
 }
 
-/* .projectimg {
-	float: left;
-} */
-
 .projectsec {
 	display: flex;
 	margin: 5%;
@@ -114,11 +110,23 @@ h2 {
 	margin: 0% 0% 0% 3%;
 }
 
-.contactdesc {
+.shortdesc {
+	display: flex;
 	width: 50%
 }
 
 .moviedesc {
 	margin: 1%;
 	width: 25%;
+}
+
+.rightnav {
+	float: right;
+}
+
+#blockm {
+	margin: 3%;	
+	padding: 3%;
+	height: 200px;
+	width: 300px;
 }
