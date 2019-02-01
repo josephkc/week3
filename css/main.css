@@ -130,3 +130,9 @@ h2 {
 	height: 200px;
 	width: 300px;
 }
+
+@media screen and (max-width: 600px) {
+	.topnav li.a, li, .rightnav {
+		float: none;
+	}
+  }
